@@ -19,48 +19,7 @@ $
 ```
 
 **均方误差 (MSE)** 指的是每个样本的平均平方损失。要计算 MSE，请求出各个样本的所有平方损失之和，然后除以样本数量：
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mi>M</mi>
-  <mi>S</mi>
-  <mi>E</mi>
-  <mo>=</mo>
-  <mfrac>
-    <mn>1</mn>
-    <mi>N</mi>
-  </mfrac>
-  <munder>
-    <mo>&#x2211;<!-- ∑ --></mo>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mo stretchy="false">(</mo>
-      <mi>x</mi>
-      <mo>,</mo>
-      <mi>y</mi>
-      <mo stretchy="false">)</mo>
-      <mo>&#x2208;<!-- ∈ --></mo>
-      <mi>D</mi>
-    </mrow>
-  </munder>
-  <mo stretchy="false">(</mo>
-  <mi>y</mi>
-  <mo>&#x2212;<!-- − --></mo>
-  <mi>p</mi>
-  <mi>r</mi>
-  <mi>e</mi>
-  <mi>d</mi>
-  <mi>i</mi>
-  <mi>c</mi>
-  <mi>t</mi>
-  <mi>i</mi>
-  <mi>o</mi>
-  <mi>n</mi>
-  <mo stretchy="false">(</mo>
-  <mi>x</mi>
-  <mo stretchy="false">)</mo>
-  <msup>
-    <mo stretchy="false">)</mo>
-    <mn>2</mn>
-  </msup>
-</math>
+$$MSE = \frac{1}{N} \sum_{(x,y)\in D} (y - prediction(x))^2$$
 
 其中：
 * (x,y)指的是样本，其中
@@ -78,17 +37,4 @@ $
 均方误差|平方损失
 训练
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[原文链接](https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss)
