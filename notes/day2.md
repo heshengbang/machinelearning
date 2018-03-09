@@ -19,7 +19,7 @@ $
 ```
 
 **均方误差 (MSE)** 指的是每个样本的平均平方损失。要计算 MSE，请求出各个样本的所有平方损失之和，然后除以样本数量：
-$$MSE = \frac{1}{N} \sum_{(x,y)\in D} (y - prediction(x))^2$$
+$MSE = \frac{1}{N} \sum_{(x,y)\in D} (y - prediction(x))^2$
 
 其中：
 * (x,y)指的是样本，其中
